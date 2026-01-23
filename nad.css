@@ -1,0 +1,18 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:rgb(221, 239, 254);
+    padding: 2rem;
+}
+
+img {
+    border-radius: 2rem;
+    max-width: 75%;
+    height: auto;
+}
+
+p {
+    font-size: 1.25rem;
+}

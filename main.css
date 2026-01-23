@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 217, 242);
+}
+
+.site-info {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-style: outset;
+    border-color: steelblue;
+    background-color:rgb(221, 239, 254);
+}
+
+.hw-div {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-style: outset;
+    border-color: steelblue;
+    background-color:rgb(221, 239, 254);
+}
+
+.hw-header {
+    font-size: 1.25rem;
+    background-color: rgb(138, 181, 216);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.js-demo {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-style: outset;
+    border-color: steelblue;
+    background-color:rgb(221, 239, 254);
+}
+
+footer {
+    padding: 1rem;
+}
