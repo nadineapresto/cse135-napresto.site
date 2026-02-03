@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     setcookie('user_color', $_POST['color'], $expiry, '/');
     
     // Redirect to show page
-    header("Location: https://napresto.site/cgi-bin/php-state-show.php");
+    header("Location: https://napresto.site/cgi-bin/state-show-php.php");
     exit();
 }
 ?>

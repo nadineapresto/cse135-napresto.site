@@ -17,7 +17,7 @@ header("Content-Type: text/html");
     <hr>
     <p>Your data has been cleared.</p>
     <br>
-    <a href="php-state-set.php">Set New Data</a> | 
-    <a href="php-state-show.php">View Data</a>
+    <a href="state-set-php.php">Set New Data</a> | 
+    <a href="state-show-php.php">View Data</a>
 </body>
 </html>
