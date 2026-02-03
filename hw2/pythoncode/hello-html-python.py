@@ -5,6 +5,7 @@ import os
 
 print("Cache-Control: no-cache")
 print("Content-Type: text/html")
+print()
 
 # Get user data to print
 date_time = datetime.datetime.now().strftime("%a %b %e %H:%M:%S %Y")
