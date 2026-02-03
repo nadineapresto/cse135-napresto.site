@@ -42,7 +42,28 @@ if ($request_method == "GET") {
     }
 }
 
-// Handle POST, PUT, DELETE requests
+// Handle POST request
+elseif ($request_method == "POST") {
+    // For POST, use $_POST which is already populated by PHP
+    if (!empty($_POST)) {
+        $data = $_POST;
+        echo "<p><b>Encoding:</b> x-www-form-urlencoded</p>\n";
+    } else {
+        // If $_POST is empty, might be JSON
+        $raw_input = file_get_contents('php://input');
+        echo "<p><b>Raw Input:</b> $raw_input</p>\n";
+        
+        if (strpos($content_type, 'application/json') !== false) {
+            echo "<p><b>Encoding:</b> application/json</p>\n";
+            $data = json_decode($raw_input, true);
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                echo "<p style='color:red;'>JSON decode error: " . json_last_error_msg() . "</p>\n";
+            }
+        }
+    }
+}
+
+// Handle PUT, DELETE requests
 else {
     $raw_input = file_get_contents('php://input');
     echo "<p><b>Raw Input:</b> $raw_input</p>\n";
