@@ -1,4 +1,7 @@
 <?php
+// Set cache control to no cache
+header("Cache-Control: no-cache");
+
 // Set content type to JSON
 header("Content-Type: application/json");
 
