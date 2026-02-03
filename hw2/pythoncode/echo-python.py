@@ -25,7 +25,7 @@ print("<hr>")
 
 # Print request information
 print("<h2>Request Information:</h2>")
-print("<p>Language: Python</p>")
+print("<p><b>Language:</b> Python</p>")
 print(f"<p><b>HTTP Method:</b> {request_method}</p>")
 print("<p><b>Encoding:</b> x-www-form-urlencoded</p>")
 print(f"<p><b>Hostname:</b> {hostname}</p>")

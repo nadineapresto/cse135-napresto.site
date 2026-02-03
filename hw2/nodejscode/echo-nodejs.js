@@ -23,7 +23,7 @@ console.log("<hr>");
 
 // Print request information
 console.log("<h2>Request Information:</h2>");
-console.log("<p>Language: Node.js</p>");
+console.log("<p><b>Language:</b> Node.js</p>");
 console.log(`<p><b>HTTP Method:</b> ${request_method}</p>`);
 console.log("<p><b>Encoding:</b> x-www-form-urlencoded</p>");
 console.log(`<p><b>Hostname:</b> ${hostname}</p>`);
