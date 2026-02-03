@@ -18,4 +18,4 @@ console.log("Content-Type: application/json");
 console.log();
 
 // Print JSON message
-console.log(JSON.stringify(response));
+console.log(JSON.stringify(response, null, 2));
