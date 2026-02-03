@@ -1,21 +1,20 @@
 #!/usr/bin/node
 
-const teamName = "Nadine Apresto";
-const datetime = new Date().toString();
-const ipAddress = process.env.REMOTE_ADDR || 'Unknown';
+const date_time = new Date().toString();
+const ip_address = process.env.REMOTE_ADDR || 'Unknown';
 
-// Create response object
+// Build JSON response message
 const response = {
-    team: teamName,
-    language: "Node.js",
-    datetime: datetime,
-    ip_address: ipAddress
+    title: "Hello, Node.js",
+    message: "This response was generated with Node.js",
+    time: date_time,
+    ipAddress: ip_address
 };
 
 // Print headers
 console.log("Cache-Control: no-cache");
 console.log("Content-Type: application/json");
-console.log(); // Blank line required!
+console.log();
 
-// Print JSON
+// Print JSON message
 console.log(JSON.stringify(response, null, 2));
