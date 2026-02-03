@@ -3,7 +3,7 @@
 import os
 
 print("Cache-Control: no-cache")
-print("Content-Type: application/json")
+print("Content-Type: text/html")
 print()
 
 print("<!DOCTYPE html>")
