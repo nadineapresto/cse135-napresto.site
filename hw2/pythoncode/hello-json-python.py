@@ -13,11 +13,7 @@ date_time = datetime.datetime.now().strftime("%a %b %e %H:%M:%S %Y")
 ip_address = os.environ.get('REMOTE_ADDR', 'Unknown')
 
 # Build JSON message
-message = {
-    "language": "Python",
-    "datetime": date_time,
-    "ip_address": ip_address
-}
+message = {"title": "Hello, Python!", "heading": "Hello, Python!", "message": "Hello World from Python! From Nadine Apresto!", "time": date_time, "ipAddress": ip_address}
 
 # Output JSON message
-print(json.dumps(message, indent = 2))
+print(json.dumps(message))
