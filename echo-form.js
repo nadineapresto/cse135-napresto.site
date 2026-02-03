@@ -1,5 +1,5 @@
 // Get form elements
-const form = document.getElementById('echoForm');
+const form = document.getElementById('echo-form');
 const languageSelect = document.getElementById('language');
 const methodSelect = document.getElementById('method');
 const encodingSelect = document.getElementById('encoding');
