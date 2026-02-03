@@ -3,7 +3,7 @@
 header("Content-Type: application/json");
 
 // Get data from user to display on webpage
-$datetime = date("Y-m-d H:i:s");
+$datetime = date("D M j H:i:s Y");
 $ip_address = $_SERVER['REMOTE_ADDR'];
 
 // Build JSON message with user data
