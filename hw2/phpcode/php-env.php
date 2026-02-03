@@ -8,7 +8,7 @@ header("Content-Type: text/html");
 // Print HTML file top
 echo "<!DOCTYPE html>\n";
 echo "<html><head><title>Environment Variables</title>\n";
-echo "</head><body><h1 align="center">Environment Variables</h1>\n";
+echo "</head><body><h1 align=\"center\">Environment Variables</h1>\n";
 echo "<hr>\n";
 
 // Loop over environment variables and print the variable name and its value
