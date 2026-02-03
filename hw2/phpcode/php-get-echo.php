@@ -8,7 +8,7 @@ header("Content-Type: text/html");
 // Print HTML file top
 echo "<!DOCTYPE html>\n";
 echo "<html><head><title>GET Request Echo</title>\n";
-echo "</head><body><h1 align=\"center\">Get Request Echo</h1>\n";
+echo "</head><body><h1 align=\"center\">GET Request Echo</h1>\n";
 echo "<hr>\n";
 
 // Get Query String
