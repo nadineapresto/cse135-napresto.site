@@ -20,7 +20,7 @@ header("Content-Type: text/html");
     <?php endif; ?>
     
     <br>
-    <a href="php-state-set.php">Set New Data</a> | 
-    <a href="php-state-destroy.php">Clear Data</a>
+    <a href="state-set-php.php">Set New Data</a> | 
+    <a href="state-destroy-php.php">Clear Data</a>
 </body>
 </html>
