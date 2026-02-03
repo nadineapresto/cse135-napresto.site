@@ -1,11 +1,8 @@
 #!/usr/bin/node
 
-const os = require('os');
-
 // Get data
 const date_time = new Date().toString();
 const ip_address = process.env.REMOTE_ADDR || 'Unknown';
-const hostname = os.hostname();
 
 // Print headers
 console.log("Cache-Control: no-cache");
