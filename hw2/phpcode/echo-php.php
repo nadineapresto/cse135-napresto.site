@@ -53,7 +53,7 @@ elseif ($request_method == "POST") {
         }
         echo "</ul>\n";
     } else {
-        echo "<p>No POST parameters received.</p>\n");
+        echo "<p>No POST parameters received.</p>\n";
     }
 }
 

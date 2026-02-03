@@ -5,7 +5,7 @@ const methodSelect = document.getElementById('method');
 const encodingSelect = document.getElementById('encoding');
 
 // Update form action when language changes
-languageSelect.addEventListener('change', function() {
+function updateAction() {
     const lang = languageSelect.value;
     if (lang === 'php') {
         form.action = 'https://napresto.site/cgi-bin/echo-php.php';
@@ -14,9 +14,17 @@ languageSelect.addEventListener('change', function() {
     } else if (lang === 'nodejs') {
         form.action = 'https://napresto.site/cgi-bin/echo-nodejs.js';
     }
-});
+}
 
 // Update form method when method changes
-methodSelect.addEventListener('change', function() {
+function updateMethod() {
     form.method = methodSelect.value;
-});
+}
+
+// Add event listeners
+languageSelect.addEventListener('change', updateAction);
+methodSelect.addEventListener('change', updateMethod);
+
+// Initialize on page load
+updateAction();
+updateMethod();
