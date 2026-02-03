@@ -7,7 +7,7 @@ $datetime = date("Y-m-d H:i:s");
 $ip_address = $_SERVER['REMOTE_ADDR'];
 
 // Build JSON message with user data
-$message = ('title' => 'Hello, PHP!', 'heading' => 'Hello, PHP! From Nadine Apresto!', 'message' => 'This page was generated with the PHP programming language', 'time' => $datetime, 'IP' => $ip_address)
+$message = array('title' => 'Hello, PHP!', 'heading' => 'Hello, PHP! From Nadine Apresto!', 'message' => 'This page was generated with the PHP programming language', 'time' => $datetime, 'IP' => $ip_address)
 
 // Convert to JSON message and output for webpage
 echo json_encode($message);
