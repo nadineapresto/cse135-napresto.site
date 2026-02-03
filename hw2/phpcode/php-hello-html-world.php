@@ -1,5 +1,3 @@
-#!/usr/bin/php
-
 <?php
 // Set content type to HTML
 header("Content-Type: text/html");
