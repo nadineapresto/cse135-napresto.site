@@ -11,10 +11,10 @@ console.log();
 
 // Build JSON message
 const message = {
-    "title": "Hello, Node!",
-    "message": "This response was generated with Node.js",
-    "time": date_time,
-    "ip_address": ip_address
+    title: "Hello, Node.js!",
+    message: "This response was generated with Node.js",
+    time: date_time,
+    ip_address: ip_address
 }
 
 // Print JSON message
