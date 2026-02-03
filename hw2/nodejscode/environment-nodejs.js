@@ -2,7 +2,7 @@
 
 // Print headers
 console.log("Cache-Control: no-cache");
-console.log("Content-Type: application/json");
+console.log("Content-Type: text/html");
 console.log();
 
 // Print HTML file top
