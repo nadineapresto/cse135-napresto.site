@@ -8,7 +8,7 @@ const encodingSelect = document.getElementById('encoding');
 languageSelect.addEventListener('change', function() {
     const lang = languageSelect.value;
     if (lang === 'php') {
-        form.action = 'https://napresto.site/cgi-bin/]echo-php.php';
+        form.action = 'https://napresto.site/cgi-bin/echo-php.php';
     } else if (lang === 'python') {
         form.action = 'https://napresto.site/cgi-bin/echo-python.py';
     } else if (lang === 'nodejs') {
