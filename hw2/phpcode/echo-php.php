@@ -30,6 +30,7 @@ echo "<p><b>User Agent:</b> $user_agent</p>\n";
 echo "<p><b>IP Address:</b> $ip_address</p>\n";
 
 echo "<h2>Request Data:</h2>\n";
+echo "<h2>Language: PHP</h2>\n";
 
 // Handle GET request
 if ($request_method == "GET") {
@@ -72,7 +73,7 @@ elseif ($request_method == "POST") {
 //     }
 //     // Otherwise treat as form-urlencoded
 //     else {
-//         echo "<p><b>Encoding:</b> x-www-form-urlencoded</p>\n";
+        echo "<p><b>Encoding:</b> x-www-form-urlencoded</p>\n";
 //         parse_str($raw_input, $data);
 //     }
 // }
